@@ -81,10 +81,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'SlotMachine.png',
-    title: 'Slot Machine',
-    info: 'This API project appears simple, but is more complicated than it looks. I used two APIs: a location API and a Weather API. The user inputs a zip code, which is entered into the location API, which generates a city name. That city name is then entered into the weather API, which generates the temperature for that location.',
+    title: 'Lucky Slot Machine',
+    info: 'I\'m not much of a gambler, but I played the nickel slots in the Reno, NV airport 25 years ago and won $75. This app recreates that experience (with higher stakes).',
     info2:
-      'If I come back to it later, I may add some media queries to make it fully responsive, add some margins, and perhaps add some CSS that makes the output more fun to look at.',
+      'This app is simple but a lot of fun to play.',
     url: 'https://luckyslotmachine.netlify.app/',
     repo: 'https://github.com/JenniferToops/luckyslotmachine', // if no repo, the button will not show up
   },

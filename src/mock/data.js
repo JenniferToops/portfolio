@@ -70,7 +70,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'WeatherAPI.png',
+    img: 'WeatherMachine.png',
     title: 'Weather API',
     info: 'This API project appears simple, but is more complicated than it looks. I used two APIs: a location API and a Weather API. The user inputs a zip code, which is entered into the location API, which generates a city name. That city name is then entered into the weather API, which generates the temperature for that location.',
     info2:
@@ -94,7 +94,7 @@ export const projectsData = [
     title: 'Blue Calculator',
     info: "I made this calculator for my grade-school daughters. The calculator is easy to use, offers four operations (addition, subtraction, multiplication, and division), and the colors are very eye catching. The user can either use the drop-down option or enter numbers. It's one of the first responsive apps I created with JavaScript.",
     info2:
-      'If I come back to this project, I will add memory, exponents, and square root functions.',
+      'If I come back to this project, I\'ll add memory, exponents, and square root functions.',
     url: 'https://bluecalculator.netlify.app',
     repo: 'https://github.com/JenniferToops/super-simple-calculator', // if no repo, the button will not show up
   },

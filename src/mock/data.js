@@ -80,7 +80,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'slotmachine.png',
+    img: 'SlotMachine.png',
     title: 'Slot Machine',
     info: 'This API project appears simple, but is more complicated than it looks. I used two APIs: a location API and a Weather API. The user inputs a zip code, which is entered into the location API, which generates a city name. That city name is then entered into the weather API, which generates the temperature for that location.',
     info2:

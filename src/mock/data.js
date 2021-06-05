@@ -24,7 +24,7 @@ export const aboutData = {
     'On the surface, my path to web development seems counterintuitive given my liberal arts background and diverse extracurricular interests. I was fully invested in as a real estate agent and gave 100% of my time and energy to my clients. Yet, when Covid-19 hit our housing market, as a single parent I needed to consider a more stable career path.',
   paragraphThree:
     "After a lot of reflection, I found that certain patterns emerged. At most of my jobs, I trained coworkers on company software and, more recently, taught other real estate agents to use our associations's transaction management software. I built websites for fun before I knew what a web developer was. Transitioning to software engineering actually made perfect sense. It just took a pandemic to make me see that I've been on this path my whole life.",
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://my.indeed.com/p/jennifert-dlnaxak', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

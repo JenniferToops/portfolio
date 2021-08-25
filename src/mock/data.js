@@ -89,15 +89,15 @@ export const projectsData = [
     repo: 'https://github.com/JenniferToops/luckyslotmachine', // if no repo, the button will not show up
   },
   {
-    id: nanoid(),
-    img: 'BlueCalculator.png',
-    title: 'Blue Calculator',
-    info: "I made this calculator for my grade-school daughters. The calculator is easy to use, offers four operations (addition, subtraction, multiplication, and division), and the colors are very eye catching. The user can either use the drop-down option or enter numbers. It's one of the first responsive apps I created with JavaScript.",
-    info2:
-      'If I come back to this project, I\'ll add memory, exponents, and square root functions.',
-    url: 'https://bluecalculator.netlify.app',
-    repo: 'https://github.com/JenniferToops/super-simple-calculator', // if no repo, the button will not show up
-  },
+  //   id: nanoid(),
+  //   img: 'BlueCalculator.png',
+  //   title: 'Blue Calculator',
+  //   info: "I made this calculator for my grade-school daughters. The calculator is easy to use, offers four operations (addition, subtraction, multiplication, and division), and the colors are very eye catching. The user can either use the drop-down option or enter numbers. It's one of the first responsive apps I created with JavaScript.",
+  //   info2:
+  //     'If I come back to this project, I\'ll add memory, exponents, and square root functions.',
+  //   url: 'https://bluecalculator.netlify.app',
+  //   repo: 'https://github.com/JenniferToops/super-simple-calculator', // if no repo, the button will not show up
+  // },
 
 ];
 

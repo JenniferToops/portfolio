@@ -88,7 +88,7 @@ export const projectsData = [
     url: 'https://luckyslotmachine.netlify.app/',
     repo: 'https://github.com/JenniferToops/luckyslotmachine', // if no repo, the button will not show up
   },
-  {
+  //{
   //   id: nanoid(),
   //   img: 'BlueCalculator.png',
   //   title: 'Blue Calculator',

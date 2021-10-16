@@ -2,16 +2,16 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jennifer Toops', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Jennifer Toops Software Engineer Portfolio', // e.g: Welcome to my website
+  title: 'Jennifer Toops', 
+  lang: 'en', 
+  description: 'Jennifer Toops Software Engineer Portfolio', 
 };
 
 // HERO DATA
 export const heroData = {
   title: 'Hi, my name is',
   name: 'Jennifer Toops',
-  subtitle: "I'm a software engineer & full-stack web developer.",
+  subtitle: "I'm a full-stack software engineer",
   cta: '',
 };
 
@@ -23,8 +23,8 @@ export const aboutData = {
   paragraphTwo:
     'On the surface, my path to web development seems counterintuitive given my liberal arts background and diverse extracurricular interests. I was fully invested in as a real estate agent and gave 100% of my time and energy to my clients. Yet, when Covid-19 hit our housing market, as a single parent I needed to consider a more stable career path.',
   paragraphThree:
-    "After a lot of reflection, I found that certain patterns emerged. At most of my jobs, I trained coworkers on company software and, more recently, taught other real estate agents to use our associations's transaction management software. I built websites for fun before I knew what a web developer was. Transitioning to software engineering actually made perfect sense. It just took a pandemic to make me see that I've been on this path my whole life.",
-  resume: 'https://my.indeed.com/p/jennifert-dlnaxak', // if no resume, the button will not show up
+    "After a lot of reflection, certain patterns emerged. At most of my jobs, I trained coworkers on company software and, more recently, taught other real estate agents to use our associations's transaction management software. I built websites for fun before I knew what a web developer was. Transitioning to software engineering actually made perfect sense. It just took a pandemic to make me see that I've been on this path my whole life.",
+  resume: 'https://my.indeed.com/p/jennifert-dlnaxak',
 };
 
 // PROJECTS DATA
@@ -39,16 +39,16 @@ export const projectsData = [
     url: 'https://occ-github-tracker.herokuapp.com/',
     repo: 'https://github.com/JenniferToops/github-tracker', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'PickAPokemon.png',
-    title: 'Pick a Pokemon!',
-    info: 'The colors for this project are so fun! This app pulls Pokemon information from a Pokemon API and spits it out onto the page. To be perfectly honest, the documentation for this API was a beast, and it took forever for me to get the sprites to render. It was worth it in the end, though.',
-    info2:
-      'If I go back to this project, I will add error messages for Pokemon that are not in the API.',
-    url: 'https://pickapokemon.netlify.app',
-    repo: 'https://github.com/JenniferToops/pickapokemon', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'PickAPokemon.png',
+  //   title: 'Pick a Pokemon!',
+  //   info: 'The colors for this project are so fun! This app pulls Pokemon information from a Pokemon API and spits it out onto the page. To be perfectly honest, the documentation for this API was a beast, and it took forever for me to get the sprites to render. It was worth it in the end, though.',
+  //   info2:
+  //     'If I go back to this project, I will add error messages for Pokemon that are not in the API.',
+  //   url: 'https://pickapokemon.netlify.app',
+  //   repo: 'https://github.com/JenniferToops/pickapokemon', // if no repo, the button will not show up
+  // },
   // {
   //   id: nanoid(),
   //   img: 'project.jpg',
@@ -78,16 +78,16 @@ export const projectsData = [
     url: 'https://zipweatherapi.netlify.app',
     repo: 'https://github.com/JenniferToops/zipweatherapi', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'SlotMachine.png',
-    title: 'Lucky Slot Machine',
-    info: 'I\'m not much of a gambler, but I played the nickel slots in the Reno, NV airport 25 years ago and won $75. This app recreates that experience (with higher stakes).',
-    info2:
-      'This app is simple but a lot of fun to play.',
-    url: 'https://luckyslotmachine.netlify.app/',
-    repo: 'https://github.com/JenniferToops/luckyslotmachine', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'SlotMachine.png',
+  //   title: 'Lucky Slot Machine',
+  //   info: 'I\'m not much of a gambler, but I played the nickel slots in the Reno, NV airport 25 years ago and won $75. This app recreates that experience (with higher stakes).',
+  //   info2:
+  //     'This app is simple but a lot of fun to play.',
+  //   url: 'https://luckyslotmachine.netlify.app/',
+  //   repo: 'https://github.com/JenniferToops/luckyslotmachine', // if no repo, the button will not show up
+  // },
   //{
   //   id: nanoid(),
   //   img: 'BlueCalculator.png',
